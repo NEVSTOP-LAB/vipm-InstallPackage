@@ -39,5 +39,5 @@ jobs:
         with:
           LabVIEW_Version: 2017
           # Package could be PackageName/PacakgeWithVersion/vipFilePath
-          Package: "NI Tag Bus"
+          Package: NI Tag Bus
 
