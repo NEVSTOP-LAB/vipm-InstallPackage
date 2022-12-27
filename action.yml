@@ -18,8 +18,47 @@ inputs:
     description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
     required: true
     default: ""
+  Package:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
+  Package1:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
+  Package2:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
+  Package3:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
+  Package4:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
+  Package5:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""runs:
+  Package6:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
+  Package7:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
+  Package8:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
+  Package9:
+    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
+    required: true
+    default: ""
 
-runs:
   using: "composite"
 
   steps:
@@ -30,4 +69,13 @@ runs:
         Architecture: ${{ inputs.Architecture }}
         Operation: vipm_InstallPackages
         Parameter1: ${{ inputs.Package }}
+        Parameter2: ${{ inputs.Package1 }}
+        Parameter3: ${{ inputs.Package2 }}
+        Parameter4: ${{ inputs.Package3 }}
+        Parameter5: ${{ inputs.Package4 }}
+        Parameter6: ${{ inputs.Package5 }}
+        Parameter7: ${{ inputs.Package6 }}
+        Parameter8: ${{ inputs.Package7 }}
+        Parameter9: ${{ inputs.Package8 }}
+        Parameter10: ${{ inputs.Package9 }}
 
