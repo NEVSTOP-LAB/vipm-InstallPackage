@@ -40,5 +40,5 @@ jobs:
           LabVIEW_Version: 2017
           # Package could be PackageName/PacakgeWithVersion/vipFilePath
           Package: "NI Tag Bus"
-          Package: "ZAlign"
+          Package1: "ZAlign"
 
