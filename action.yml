@@ -18,10 +18,6 @@ inputs:
     description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
     required: true
     default: ""
-  Package:
-    description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
-    required: true
-    default: ""
   Package1:
     description: "Package could be PackageName/PacakgeWithVersion/vipFilePath"
     required: true
